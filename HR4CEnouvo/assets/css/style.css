@@ -146,6 +146,9 @@ body {
   letter-spacing: 0.2px;
   margin-bottom: 68px;
 }
+.row-slide{
+  width: 100%;
+}
 .headding-flex{
   display: flex;
   padding: 0;
@@ -156,6 +159,7 @@ body {
   position: relative;
   padding-top: 38px;
   margin: 8px;
+  margin-inline-end: 0;
 }
 .box-child-after-label {
   color: var(--white-color);
