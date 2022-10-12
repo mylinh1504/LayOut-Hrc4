@@ -1,0 +1,128 @@
+/* mobile */
+@media (max-width: 740px) {
+  .nab-row {
+    position: relative;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+  }
+  /* .mobile-logo a{ 
+    width: 50%;
+  } */
+  .mobile-menu-icon {
+    position: absolute;
+    width: auto;
+    right: 0;
+    cursor: pointer;
+  }
+  .mobile-menu-icon i {
+  }
+
+  .ul-menu {
+    display: none;
+    border-radius: 4px;
+    position: absolute;
+    text-align: left;
+    left: 0;
+    z-index: 1;
+    background-color: var(--primary);
+    padding-bottom: 10px;
+    width: 100vw;
+    margin: 10px 0;
+  }
+  .active {
+    display: block;
+  }
+  .li-contract {
+    width: 75%;
+  }
+  li.nav-item {
+    display: block;
+    padding: 12px;
+    width: 75%;
+    margin: 0;
+  }
+  li.nav-item:hover {
+    background-color: red;
+    cursor: pointer;
+  }
+  .mobile-menu-icon {
+    display: block;
+  }
+  .poster img {
+    display: none;
+  }
+  /* slide */
+  .box-slide {
+    padding: 52px 0;
+  }
+
+  .content-our-firt {
+    padding: 0;
+  }
+  /* sevice */
+  .content-sevice-status {
+    margin-left: 0;
+    padding-top: 24px;
+  }
+
+  /* timeline */
+  .timeline {
+    height: 100%;
+    margin: 0;
+    width: 100%;
+    display: block;
+  }
+  .timeline::after {
+    position: absolute;
+    width: 1px;
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    left: 5%;
+    height: 100%;
+  }
+  .timline.container {
+    /* position: relative;
+  background-color: inherit;
+  width: 50%; */
+  }
+  .timeline-title{
+    margin: 0;
+  }
+
+  .container-timeline {
+    position: relative;
+    background-color: inherit;
+    width: 100%;
+    text-align: initial;
+    padding: 15px 30px;
+    margin:0;
+  }
+  .container-timeline::after {
+    top: 50%;
+    margin: 0;
+    left: 7px;
+  }
+  .top {
+    left: 0;
+  }
+ 
+  /* Place the container to the right */
+  .bottom {
+    left: 50%;
+  }
+  
+  /* The actual content */
+  .timeline-content {
+    width: 100%;
+    padding: 0 20px;
+    position: inherit;
+    margin: 0;
+  }
+  /* Place the container to the right */
+  .bottom {
+    left: 0;
+  }
+
+}
